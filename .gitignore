@@ -10,3 +10,8 @@ cypress/fixtures/users.json
 .vscode
 env
 .DS_Store
+assets
+commands
+cypress-api.html
+index.html
+
