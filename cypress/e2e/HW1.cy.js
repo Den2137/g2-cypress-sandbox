@@ -6,7 +6,7 @@ describe('Multiple tests', () => {
     cy.get('[title="Forms"]').click();
     cy.get('[title="Form Layouts"]').click();
   })
-   
+
   const tests = [
       {testData: 'janedoe@example.com, johndoe@example.com', expectedResult: 'janedoe@example.com, johndoe@example.com',testData1:'Subject', expectedResult1:'Subject',testData2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', expectedResult2:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
   ]
